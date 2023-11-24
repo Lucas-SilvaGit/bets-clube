@@ -65,3 +65,10 @@ p.danger {
 	color: red;
 }
 /* End Default CSS */
+
+/* Main Banner */
+.logo {
+  width: 250px;
+  height: 250px;
+}
+/* End Main Banner */
