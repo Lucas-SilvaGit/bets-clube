@@ -65,3 +65,47 @@ p.danger {
 	color: red;
 }
 /* End Default CSS */
+
+/* Main Banner */
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+h1 {
+  font-weight: 700px;
+}
+
+.slogan {
+  font-size: 4.5em;
+}
+
+@media (max-width: 767px) {
+  .slogan {
+    font-size: 2.0em;
+  }
+}
+
+.banner-container {
+  opacity: 0;
+  transform: translateX(-350px);
+  animation: fadeInUp 1s forwards, slideIn 1s forwards;
+}
+
+.text-container {
+  text-align: center;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateX(0);
+  }
+}
+/* End Main Banner */
